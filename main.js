@@ -33,7 +33,7 @@ var objSpinner2 = spinner2.animate(keyframe,timings)
 document.querySelector("body").onload = function(){
 
     setInterval(function(){
-       // objSpinner2.playbackRate += 0.5
+       objSpinner2.playbackRate += 0.5
     },500);
    
     
