@@ -1,0 +1,209 @@
+@import url(reset.css);
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(114, 183, 243)
+}
+
+
+
+#spinner{
+	margin-top: 200px;
+	width: 200px;
+	height: 199px;
+	background-image: url(../images/spinner1.png);
+	background-size: contain;
+	background-position: center;
+}
+
+#spinner2{
+	width: 200px;
+	height: 199px;
+	background-image: url(../images/spinner2.png);
+	background-size: contain;
+	background-position: center;
+	margin-top: 40px;
+}
+
+.app {
+	background-color: rgb(252, 248, 9);
+	height: 800px;
+	overflow: hidden;
+}
+
+.right_hend{ 
+	margin-top: 100px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-left: 1300px;
+}
+
+.left_hend{
+	margin-top: -50px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+}
+
+.left_forearm{
+	margin-top: -50px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+}
+
+.right_forearm{ 
+	margin-top: 50px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-left: 1300px;	
+}
+
+.head{
+	margin-top: 50px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+}
+
+.chest{ 
+	margin-top: -50px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-left: 1300px;	
+}
+
+.stomach{
+	margin-top: 50px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-left: 50px;
+}
+
+.pelvis{ 
+	margin-top: -50px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-left: 1300px;	
+}
+
+.right_hip{ 
+	margin-top: 50px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-left: 1300px;	
+}
+
+.left_hip{ 
+	margin-top: -50px;
+	width: 50px;
+	height: 50px;
+	background-image: url(../images/ready.png); 
+	background-repeat: no-repeat;
+	margin-left: 50px;	
+}
+
+.right_knee{ 
+	margin-top: 50px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-left: 1300px;	
+}
+
+.left_knee{ 
+	margin-top: -50px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	margin-left: 50px;	
+}
+
+.right_foot{ 
+	margin-top: 50px;
+	width: 50px;
+	height: 50px; 
+	background-repeat: no-repeat;
+	margin-left: 1300px;	
+}
+
+.left_foot{ 
+	margin-top: -50px;
+	width: 50px;
+	height: 50px; 
+	background-repeat: no-repeat;
+	margin-left: 50px;	
+}
+
+.wave {
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	position: absolute;
+	top:0;
+}
+
+.wave_one{
+	background: url(../images/wave2.png) repeat-x; 
+	width: 7000px;
+	height: 150px;
+	animation: waves 15s infinite linear;
+	top: 0;
+	position: absolute;
+	opacity: .2;
+
+}
+
+.wave_two{
+	background: url(../images/wave2.png) repeat-x; 
+	width: 7000px;
+	height: 150px;
+	animation: waves 10s infinite linear;
+	top: 0;
+	position: absolute;
+	opacity: .3;
+	}
+
+	.wave_two{
+	background: url(../images/wave2.png) repeat-x; 
+	width: 7000px;
+	height: 150px;
+	animation: waves 10s infinite linear;
+	top: 0;
+	position: absolute;
+	opacity: .3;
+	}
+
+	.wave_two{
+		background: url(../images/wave2.png) repeat-x; 
+		width: 7000px;
+		height: 150px;
+		animation: waves 20s infinite linear;
+		top: 0;
+		position: absolute;
+		opacity: .5;
+		}
+
+		
+
+	@keyframes waves{
+	0%{
+		margin-left: 0;
+	}
+	100%{
+		margin-left: -748px;
+	}
+}
+
+	
+
+
